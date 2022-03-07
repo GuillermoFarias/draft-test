@@ -63,7 +63,7 @@ in root exist input.txt file, here replace input test
   LLFFFLFLFL
 ```
 
-netx, run command to process file
+next, run command to process file
 
 ```bash
 php console martian:run
