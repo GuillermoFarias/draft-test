@@ -15,8 +15,8 @@ class MartianCommand extends Command
     /**
      * execute.
      *
-     * @param mixed $input
-     * @param mixed $output
+     * @param InputInterface    $input
+     * @param OutputInterface   $output
      *
      * @return int
      */

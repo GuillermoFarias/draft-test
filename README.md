@@ -70,12 +70,12 @@ in root exist input.txt file, here replace input test
 next, run command to process file
 
 ```bash
-php console martian:run
+php console marvin:walk
 ```
 
 recomend run this command over docker
 ```bash
-docker-compose exec app php console martian:run
+docker-compose exec app php console marvin:walk
 ```
 
 ### About me
