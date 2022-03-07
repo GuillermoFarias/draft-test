@@ -1,9 +1,8 @@
 <?php
-// src/Command/CreateUserCommand.php
+
 namespace App\Commands;
 
 use App\Martian;
-use App\Martian\Surface;
 use App\Reader;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
