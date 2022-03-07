@@ -54,8 +54,9 @@ docker-compose run --rm app vendor/bin/phpunit --testdox --coverage-text
 docker-compose run --rm app vendor/bin/phpunit --coverage-html coverage-report
 ```
 
+# ¿ How to use   ?
 
-# How to use
+<img src="https://user-images.githubusercontent.com/11460907/156955332-6b59d02d-42b5-4c9a-87dd-b5c7a6aa5e8e.png" alt="drawing" width="90"/>
 
 in root exist input.txt file, here replace input test
 
