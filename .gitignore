@@ -1,0 +1,6 @@
+vendor
+.vscode
+instructions.txt
+.phpunit.result.cache
+coverage-report
+clover.xml
