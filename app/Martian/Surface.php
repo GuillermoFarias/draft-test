@@ -21,10 +21,11 @@ class Surface
 
     /**
      * fill
-     * complete the surface grid with the given input
+     * complete the surface grid with the given input.
      *
-     * @param  int  $x
-     * @param  int  $y
+     * @param int $x
+     * @param int $y
+     *
      * @return array
      */
     public function fill(int $x, int $y): array
@@ -38,11 +39,12 @@ class Surface
 
     /**
      * setInitialPosition
-     * set the initial position of the rover
+     * set the initial position of the rover.
      *
-     * @param  int      $x
-     * @param  int      $y
-     * @param  string   $orientation
+     * @param int    $x
+     * @param int    $y
+     * @param string $orientation
+     *
      * @return void
      */
     public function setInitialPosition(int $x, int $y, string $orientation): void
@@ -53,7 +55,7 @@ class Surface
     }
 
     /**
-     * moveForward
+     * moveForward.
      *
      * @return void
      */
@@ -78,7 +80,7 @@ class Surface
     }
 
     /**
-     * moveBackward
+     * moveBackward.
      *
      * @return void
      */
@@ -103,7 +105,7 @@ class Surface
     }
 
     /**
-     * turnLeft
+     * turnLeft.
      *
      * @return void
      */
@@ -128,7 +130,7 @@ class Surface
     }
 
     /**
-     * turnRight
+     * turnRight.
      *
      * @return void
      */
@@ -153,7 +155,7 @@ class Surface
     }
 
     /**
-     * getPosition
+     * getPosition.
      *
      * @return array
      */
@@ -163,7 +165,7 @@ class Surface
     }
 
     /**
-     * verifyIsOutOfBounds
+     * verifyIsOutOfBounds.
      *
      * @return bool
      */
@@ -171,11 +173,12 @@ class Surface
     {
         $out = !isset($this->surfaceGrid[$this->positionX])
             || !isset($this->surfaceGrid[$this->positionX][$this->positionY]);
+
         return $out;
     }
 
     /**
-     * backupPosition
+     * backupPosition.
      *
      * @return void
      */
@@ -185,7 +188,7 @@ class Surface
     }
 
     /**
-     * restorePosition
+     * restorePosition.
      *
      * @return void
      */

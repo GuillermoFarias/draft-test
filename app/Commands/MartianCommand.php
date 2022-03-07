@@ -1,9 +1,10 @@
 <?php
+
 // src/Command/CreateUserCommand.php
+
 namespace App\Commands;
 
 use App\Martian;
-use App\Martian\Surface;
 use App\Reader;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
@@ -14,10 +15,11 @@ class MartianCommand extends Command
     protected static $defaultName = 'martian:run';
 
     /**
-     * execute
+     * execute.
      *
-     * @param  mixed $input
-     * @param  mixed $output
+     * @param mixed $input
+     * @param mixed $output
+     *
      * @return int
      */
     protected function execute(InputInterface $input, OutputInterface $output): int
@@ -31,6 +33,7 @@ class MartianCommand extends Command
         $output = $martian->walk($reader->getInstructions());
 
         print_r($output);
+
         return Command::SUCCESS;
     }
 }

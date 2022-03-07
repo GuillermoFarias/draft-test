@@ -11,10 +11,11 @@ class Martian
     private $surface = null;
 
     /**
-     * fillSurface
+     * fillSurface.
      *
-     * @param  int $x
-     * @param  int $i
+     * @param int $x
+     * @param int $i
+     *
      * @return void
      */
     public function fillSurface(int $x, int $i): void
@@ -24,9 +25,10 @@ class Martian
     }
 
     /**
-     * walk
+     * walk.
      *
-     * @param  mixed $instructions
+     * @param mixed $instructions
+     *
      * @return array
      */
     public function walk(array $instructions): array
@@ -46,9 +48,10 @@ class Martian
     }
 
     /**
-     * walk
+     * walk.
      *
-     * @param  \App\Martian\Instruction  $instruction
+     * @param \App\Martian\Instruction $instruction
+     *
      * @return array
      */
     public function move(Instruction $instruction, array $blackList): array
