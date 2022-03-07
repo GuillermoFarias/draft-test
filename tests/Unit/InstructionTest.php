@@ -19,7 +19,7 @@ class InstructionTest extends TestCase
     public function testInstructions(): void
     {
         $input = '1 2 N';
-        $instructions = 'RLRLRLRLRL'; # 10 directions
+        $instructions = 'RLRLRLRLRL'; // 10 directions
         $instruction = new Instruction($input, $instructions);
 
         $this->assertEquals(10, count($instruction->getInstructions()));

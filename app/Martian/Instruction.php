@@ -17,10 +17,11 @@ class Instruction
     private $instructions = 'R';
 
     /**
-     * __construct
+     * __construct.
      *
-     * @param  mixed $position
-     * @param  mixed $instructions
+     * @param mixed $position
+     * @param mixed $instructions
+     *
      * @return void
      */
     public function __construct(string $position, string $instructions)
@@ -30,9 +31,10 @@ class Instruction
     }
 
     /**
-     * readPositions
+     * readPositions.
      *
-     * @param  mixed $position
+     * @param mixed $position
+     *
      * @return void
      */
     private function readPositions(string $position): void
@@ -44,7 +46,7 @@ class Instruction
     }
 
     /**
-     * Get the value of positionX
+     * Get the value of positionX.
      *
      * @return int
      */
@@ -54,7 +56,7 @@ class Instruction
     }
 
     /**
-     * Get the value of positionY
+     * Get the value of positionY.
      *
      * @return int
      */
@@ -64,7 +66,7 @@ class Instruction
     }
 
     /**
-     * Get the value of orientation
+     * Get the value of orientation.
      *
      * @return string
      */
@@ -74,7 +76,7 @@ class Instruction
     }
 
     /**
-     * Get the value of instructions
+     * Get the value of instructions.
      *
      * @return array
      */

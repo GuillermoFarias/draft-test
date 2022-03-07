@@ -13,10 +13,11 @@ class MartianCommand extends Command
     protected static $defaultName = 'martian:run';
 
     /**
-     * execute
+     * execute.
      *
-     * @param  mixed $input
-     * @param  mixed $output
+     * @param mixed $input
+     * @param mixed $output
+     *
      * @return int
      */
     protected function execute(InputInterface $input, OutputInterface $output): int
@@ -30,6 +31,7 @@ class MartianCommand extends Command
         $output = $martian->walk($reader->getInstructions());
 
         print_r($output);
+
         return Command::SUCCESS;
     }
 }

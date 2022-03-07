@@ -10,9 +10,10 @@ class Reader
     public $lines = [];
 
     /**
-     * read
+     * read.
      *
-     * @param  string $filePath
+     * @param string $filePath
+     *
      * @return void
      */
     public function readFile(string $filePath): void
@@ -26,7 +27,7 @@ class Reader
     }
 
     /**
-     * getSurface
+     * getSurface.
      *
      * @return array
      */
@@ -36,7 +37,7 @@ class Reader
     }
 
     /**
-     * getInstructions
+     * getInstructions.
      *
      * @return array
      */
