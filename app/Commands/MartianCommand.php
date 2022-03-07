@@ -32,7 +32,7 @@ class MartianCommand extends Command
 
         foreach ($output as $value) {
             $lost = key_exists('LOST', $value) ? ' LOST' : '';
-            echo $value[0] . ' ' . $value[1] .  ' ' . $value[2] . $lost  . PHP_EOL;
+            echo $value[0].' '.$value[1].' '.$value[2].$lost.PHP_EOL;
         }
 
         return Command::SUCCESS;
