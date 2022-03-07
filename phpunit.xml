@@ -18,6 +18,10 @@
     <exclude>
       <directory suffix=".php">./app/Commands/</directory>
     </exclude>
+    <report>
+      <clover outputFile="clover.xml"/>
+      <text outputFile="php://stdout"/>
+    </report>
   </coverage>
   <testsuites>
     <testsuite name="Unit">
