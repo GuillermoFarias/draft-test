@@ -1,6 +1,7 @@
 <img src="https://user-images.githubusercontent.com/11460907/156950259-03bc3b30-2920-46b6-a43a-f9dac14e4455.png" alt="drawing" width="100"/>
 
 # Marvin
+[![StyleCI](https://github.styleci.io/repos/466894091/shield?branch=master)](https://github.styleci.io/repos/466894091?branch=master)
 [![CodeFactor](https://www.codefactor.io/repository/github/guillermofarias/draft-test/badge)](https://www.codefactor.io/repository/github/guillermofarias/draft-test)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/127054eda376433e856a22a7589ff29f)](https://www.codacy.com/gh/GuillermoFarias/draft-test/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=GuillermoFarias/draft-test&amp;utm_campaign=Badge_Grade)
 
