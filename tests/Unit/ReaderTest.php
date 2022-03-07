@@ -10,7 +10,7 @@ class ReaderTest extends TestCase
     public function testReadFile(): void
     {
         $reader = new Reader();
-        $reader->readFile(__DIR__ . '/../input.test.txt');
+        $reader->readFile(__DIR__.'/../input.test.txt');
 
         $this->assertEquals(5, $reader->getSurface()[0]);
         $this->assertEquals(3, $reader->getSurface()[1]);
@@ -19,7 +19,7 @@ class ReaderTest extends TestCase
     public function testGetInstructions(): void
     {
         $reader = new Reader();
-        $reader->readFile(__DIR__ . '/../input.test.txt');
+        $reader->readFile(__DIR__.'/../input.test.txt');
 
         $instructions = $reader->getInstructions();
 

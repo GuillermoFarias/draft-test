@@ -21,7 +21,7 @@ class MartianTest extends TestCase
         $this->assertEquals(
             [
                 ['1', '1', 'E'],
-                ['3', '3', 'N', 'LOST' => 1]
+                ['3', '3', 'N', 'LOST' => 1],
             ],
             $output
         );
@@ -30,7 +30,7 @@ class MartianTest extends TestCase
     public function testInstructions(): void
     {
         $input = '1 2 N';
-        $instructions = 'RLRLRLRLRL'; # 10 directions
+        $instructions = 'RLRLRLRLRL'; // 10 directions
         $instruction = new Instruction($input, $instructions);
 
         $this->assertEquals(10, count($instruction->getInstructions()));
@@ -42,8 +42,8 @@ class MartianTest extends TestCase
         /** @var \PHPUnit\Framework\MockObject\MockObject&\App\Reader */
         $reader = $this->createPartialMock(Reader::class, ['getSurface', 'getInstructions']);
 
-        $instructions[] = new Instruction("1 1 E", "RFRFRFRF");
-        $instructions[] = new Instruction("3 2 N", "LRFRRFLLFFRRFLL");
+        $instructions[] = new Instruction('1 1 E', 'RFRFRFRF');
+        $instructions[] = new Instruction('3 2 N', 'LRFRRFLLFFRRFLL');
         $reader->method('getSurface')->willReturn([5, 3]);
         $reader->method('getInstructions')->willReturn($instructions);
 
