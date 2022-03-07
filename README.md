@@ -1,6 +1,7 @@
 <img src="https://user-images.githubusercontent.com/11460907/156950259-03bc3b30-2920-46b6-a43a-f9dac14e4455.png" alt="drawing" width="100"/>
 
 # Marvin
+[![codecov](https://codecov.io/gh/GuillermoFarias/draft-test/branch/master/graph/badge.svg?token=vmrzFxm2c3)](https://codecov.io/gh/GuillermoFarias/draft-test)
 [![tests](https://github.com/GuillermoFarias/draft-test/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/GuillermoFarias/draft-test/actions/workflows/test.yml)
 [![StyleCI](https://github.styleci.io/repos/466894091/shield?branch=master)](https://github.styleci.io/repos/466894091?branch=master)
 [![CodeFactor](https://www.codefactor.io/repository/github/guillermofarias/draft-test/badge)](https://www.codefactor.io/repository/github/guillermofarias/draft-test)
