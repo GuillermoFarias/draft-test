@@ -1,6 +1,7 @@
 <img src="https://user-images.githubusercontent.com/11460907/156950259-03bc3b30-2920-46b6-a43a-f9dac14e4455.png" alt="drawing" width="100"/>
 
 # Marvin
+[![CodeFactor](https://www.codefactor.io/repository/github/guillermofarias/draft-test/badge)](https://www.codefactor.io/repository/github/guillermofarias/draft-test)
 
 Test
 
