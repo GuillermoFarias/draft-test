@@ -14,14 +14,14 @@ class Martian
      * fillSurface.
      *
      * @param int $x
-     * @param int $i
+     * @param int $y
      *
      * @return void
      */
-    public function fillSurface(int $x, int $i): void
+    public function fillSurface(int $x, int $y): void
     {
         $this->surface = new Surface();
-        $this->surface->fill($x, $i);
+        $this->surface->fill($x, $y);
     }
 
     /**
