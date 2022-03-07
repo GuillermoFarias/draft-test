@@ -1,4 +1,5 @@
 vendor
+.DS_Store
 .vscode
 instructions.txt
 .phpunit.result.cache
