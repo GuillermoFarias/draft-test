@@ -1,7 +1,78 @@
-                                                     88
-                                                     ""
-88,dPYba,,adPYba,  ,adPPYYba, 8b,dPPYba, 8b       d8 88 8b,dPPYba,
-88P'   "88"    "8a ""     `Y8 88P'   "Y8 `8b     d8' 88 88P'   `"8a
-88      88      88 ,adPPPPP88 88          `8b   d8'  88 88       88
-88      88      88 88,    ,88 88           `8b,d8'   88 88       88
-88      88      88 `"8bbdP"Y8 88             "8"     88 88       88
+<img src="https://user-images.githubusercontent.com/11460907/156950259-03bc3b30-2920-46b6-a43a-f9dac14e4455.png" alt="drawing" width="100"/>
+
+# Marvin
+
+Test
+
+## Configure docker image
+
+```sh
+docker-compose build
+```
+
+## Install dependencies
+
+```sh
+docker-compose run --rm app composer install
+```
+
+## ... And lift off
+
+```sh
+docker-compose up -d
+```
+
+### Stop service
+
+```sh
+docker-compose stop
+```
+
+## Testing
+
+```sh
+docker-compose run --rm app php -n vendor/bin/phpunit
+```
+
+### Get report of the tested
+
+#### Console
+
+```sh
+docker-compose run --rm app vendor/bin/phpunit --testdox --coverage-text
+```
+
+#### HTML
+
+```sh
+docker-compose run --rm app vendor/bin/phpunit --coverage-html coverage-report
+```
+
+
+# How to use
+
+in root exist input.txt file, here replace input test
+
+```
+  5 3
+  1 1 E
+  RFRFRFRF
+  3 2 N
+  FRRFLLFFRRFLL
+  0 3 W
+  LLFFFLFLFL
+```
+
+netx, run command to process file
+
+```bash
+php console martian:run
+```
+
+recomend run this command over docker
+```bash
+docker-compose exec app php console martian:run
+```
+
+About me
+![Guillermo Farías GitHub stats](https://github-readme-stats.vercel.app/api?username=GuillermoFarias&hide_title=false&theme=prussian)
