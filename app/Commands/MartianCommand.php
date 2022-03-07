@@ -10,7 +10,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 class MartianCommand extends Command
 {
-    protected static $defaultName = 'martian:run';
+    protected static $defaultName = 'marvin:walk';
 
     /**
      * execute.
@@ -30,7 +30,10 @@ class MartianCommand extends Command
         $martian->fillSurface($surface[0], $surface[1]);
         $output = $martian->walk($reader->getInstructions());
 
-        print_r($output);
+        foreach ($output as $value) {
+            $lost = key_exists('LOST', $value) ? ' LOST' : '';
+            echo $value[0] . ' ' . $value[1] .  ' ' . $value[2] . $lost  . PHP_EOL;
+        }
 
         return Command::SUCCESS;
     }
